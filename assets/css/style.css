@@ -1,0 +1,19 @@
+/* Minimal responsive styles for the site */
+:root{
+  --bg:#f7f8fb;
+  --card:#ffffff;
+  --accent:#0b63c6;
+  --muted:#6b7280;
+}
+*{box-sizing:border-box}
+body{font-family:Inter,system-ui,Segoe UI,Arial,sans-serif;margin:0;background:var(--bg);color:#111}
+.hero{background:linear-gradient(90deg,#ffffff, #f1f5f9);padding:48px 16px;border-bottom:1px solid #e6eef8}
+.hero .inner{max-width:900px;margin:0 auto;text-align:center}
+.hero h1{margin:0;font-size:2rem}
+.subtitle{color:var(--muted);margin-top:8px}
+nav ul{list-style:none;padding:0;margin:16px 0 0;display:flex;gap:12px;justify-content:center}
+nav a{text-decoration:none;color:var(--accent)}
+.container{max-width:900px;margin:28px auto;padding:0 16px}
+section{background:var(--card);padding:18px;border-radius:8px;margin-bottom:16px;box-shadow:0 1px 2px rgba(16,24,40,0.03)}
+footer{max-width:900px;margin:24px auto;padding:0 16px;text-align:center;color:var(--muted)}
+@media(min-width:768px){.hero h1{font-size:2.6rem}.container{padding:0}}
