@@ -6,9 +6,7 @@ Analytical | Collaborator | Leader | Adaptable
 Core Competencies  
  
 Agile Methodologies  | Software Development Life Cycle (SDLC) | RESTful API Development | Debugging and Troubleshooting | 
-# Siddhesh More
 
-Backend Developer (C# .NET) | AWS | Domain: Forex, Banking, Compliance (AML)
 
 This repository contains a minimal static site for my GitHub Pages profile. It includes a lightweight `index.html`, basic styling, and a favicon.
 
